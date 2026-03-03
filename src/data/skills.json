@@ -1,0 +1,100 @@
+{
+    "frontend": [
+        {
+            "name": "HTML5 & CSS3",
+            "level": 95
+        },
+        {
+            "name": "JavaScript (ES6+)",
+            "level": 90
+        },
+        {
+            "name": "React (Hooks, Router, SPA)",
+            "level": 85
+        },
+        {
+            "name": "Vite & TailwindCSS",
+            "level": 90
+        },
+        {
+            "name": "Framer Motion & UX/UI",
+            "level": 80
+        },
+        {
+            "name": "REST API Consumption",
+            "level": 85
+        },
+        {
+            "name": "State Mgmt & Validation",
+            "level": 80
+        },
+        {
+            "name": "Responsive Design & DOM",
+            "level": 90
+        }
+    ],
+    "backend": [
+        {
+            "name": "Odoo (MVC, ORM)",
+            "level": 95
+        },
+        {
+            "name": "Python",
+            "level": 95
+        },
+        {
+            "name": "FastAPI & REST Design",
+            "level": 85
+        },
+        {
+            "name": "Business Logic & JSON",
+            "level": 90
+        },
+        {
+            "name": "Authentication Concepts",
+            "level": 75
+        },
+        {
+            "name": "API Testing & Validation",
+            "level": 85
+        },
+        {
+            "name": "Error Handling & Modular",
+            "level": 80
+        },
+        {
+            "name": "Cybersecurity Awareness",
+            "level": 75
+        }
+    ],
+    "tools": [
+        {
+            "name": "Git & GitHub Workflows",
+            "level": 90
+        },
+        {
+            "name": "Docker & Docker Compose",
+            "level": 85
+        },
+        {
+            "name": "Deployments (Vercel, Railway)",
+            "level": 85
+        },
+        {
+            "name": "Linux Terminal & Env (.env)",
+            "level": 85
+        },
+        {
+            "name": "Postman & REST Testing",
+            "level": 80
+        },
+        {
+            "name": "VS Code & Antigravity IDE",
+            "level": 95
+        },
+        {
+            "name": "npm Package Management",
+            "level": 90
+        }
+    ]
+}

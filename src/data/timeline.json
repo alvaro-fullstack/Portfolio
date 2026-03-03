@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "year": "2025 - 2025",
+        "role": "Programador Full Stack",
+        "company": "Halltic Tech S.L.",
+        "description": "Desarrollo y despliegue de soluciones empresariales basadas en Odoo (Python/ORM), personalizando módulos de CRM y gestión documental. Administré entornos Docker y bases de datos PostgreSQL, y desarrollé componentes front-end para interfaces internas. Mejoré en un 20% la eficiencia del sistema."
+    },
+    {
+        "id": 2,
+        "year": "2024 - 2025",
+        "role": "Máster en Desarrollo FullStack",
+        "company": "Universidad Internacional de la Rioja (UNIR)",
+        "description": "Especialización avanzada en tecnologías FullStack incluyendo despliegues y desarrollo web avanzado."
+    },
+    {
+        "id": 3,
+        "year": "2024 - 2025",
+        "role": "Mozo de almacén",
+        "company": "Amazon (Logística)",
+        "description": "Gestión de pedidos en un entorno de alta demanda, cumpliendo objetivos de productividad, con un 99% de precisión."
+    },
+    {
+        "id": 4,
+        "year": "2023 - 2024",
+        "role": "Desarrollador en prácticas (Odoo/Python)",
+        "company": "Ineew",
+        "description": "Desarrollé y mantuve módulos en Odoo usando Python y PostgreSQL para gestionar cursos online; implementé cuestionarios e-learning y resolví bugs críticos. Mejoré la carga de cursos en un 30%."
+    },
+    {
+        "id": 5,
+        "year": "2021 - 2023",
+        "role": "CFGS DAM (Desarrollador Multiplataforma)",
+        "company": "ILERNA, Madrid",
+        "description": "Titulación de Grado Superior en Desarrollo de Aplicaciones Multiplataforma."
+    },
+    {
+        "id": 6,
+        "year": "2021 - 2023",
+        "role": "Soldado Raso",
+        "company": "Ejército de Tierra",
+        "description": "Coordiné la instalación y mantenimiento de equipos de radio y telecomunicaciones en un entorno militar de alta exigencia, potenciando mi capacidad de trabajo en equipo."
+    }
+]
