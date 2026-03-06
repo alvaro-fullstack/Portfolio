@@ -58,7 +58,7 @@ export default function Projects() {
                                 {/* Image container */}
                                 <div className="relative overflow-hidden aspect-video">
                                     <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors z-10" />
-                                    <img src={project.image} alt={project.name} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
+                                    <img src={project.image.startsWith('/') ? `${import.meta.env.BASE_URL}${project.image.slice(1)}` : project.image} alt={project.name} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
 
                                     {/* Hover links overlay */}
                                     <div className="absolute inset-0 bg-slate-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 flex items-center justify-center gap-6">
