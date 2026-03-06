@@ -11,7 +11,9 @@ export default function Terminal() {
     const bottomRef = useRef(null);
 
     useEffect(() => {
-        bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+        if (history.length > 1) {
+            bottomRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
     }, [history]);
 
     const handleCommand = (e) => {
