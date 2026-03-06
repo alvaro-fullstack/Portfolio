@@ -1,43 +1,60 @@
 [
     {
         "id": 1,
-        "name": "Plataforma E-Commerce",
-        "description": "Una solución e-commerce altamente escalable y moderna con gestión dinámica de inventario.",
-        "image": "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&q=80",
+        "name": "🎬 AI Video Editor",
+        "description": "Aplicación de escritorio para automatizar la edición de vídeo mediante inteligencia artificial. Elimina automáticamente silencios y muletillas de tus vídeos de forma 100% offline.",
+        "image": "/projects/editor.png",
         "technologies": [
-            "React",
             "Python",
+            "FastAPI",
+            "React",
+            "Electron",
             "TailwindCSS",
-            "Docker"
+            "IA (Whisper/Silero)"
         ],
-        "github": "https://github.com",
-        "demo": "https://demo.com"
+        "github": "https://github.com/alvaro-fullstack/Proyectos-pers-publi/tree/main/edit-video",
+        "demo": ""
     },
     {
         "id": 2,
-        "name": "Módulo Personalizado ERP en Odoo",
-        "description": "Módulos ERP personalizados para el seguimiento específico de almacenes y reportes de ventas.",
-        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
+        "name": "🥚 DigiPet - Tamagotchi",
+        "description": "Recreación fiel del clásico Tamagotchi de 1997, construido como aplicación web con estética retro LCD auténtica con múltiples mecánicas de estado y guardado local.",
+        "image": "/projects/tamagotchi.png",
         "technologies": [
-            "Odoo",
-            "Python",
-            "PostgreSQL"
+            "JavaScript (ES6)",
+            "HTML5 Canvas",
+            "CSS3",
+            "Web Audio API",
+            "LocalStorage"
         ],
-        "github": "https://github.com",
+        "github": "https://github.com/alvaro-fullstack/Proyectos-pers-publi/tree/main/tamagotchi",
         "demo": ""
     },
     {
         "id": 3,
-        "name": "Dashboard Analítico en Vivo",
-        "description": "Dashboard interactivo para visualización de datos en tiempo real y telemetría de APIs.",
-        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+        "name": "🧙‍♂️ Tower of Elements",
+        "description": "Una experiencia interactiva y juego en 3D ejecutable directamente en el navegador. Desarrollado para explorar mecánicas tridimensionales en la web con un alto rendimiento.",
+        "image": "/projects/towerofelements.png",
         "technologies": [
             "React",
-            "REST APIs",
-            "Framer Motion",
-            "Vite"
+            "Three.js",
+            "React Three Fiber",
+            "Vite",
+            "Drei"
         ],
-        "github": "https://github.com",
-        "demo": "https://demo.com"
+        "github": "https://github.com/alvaro-fullstack/Proyectos-pers-publi/tree/main/towerofelements",
+        "demo": ""
+    },
+    {
+        "id": 4,
+        "name": "Ver más en GitHub 🚀",
+        "description": "Explora el resto de mis repositorios y proyectos personales, incluyendo minijuegos, utilidades y experimentación con nuevas tecnologías. ¡Siempre estoy creando algo nuevo!",
+        "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80",
+        "technologies": [
+            "Open Source",
+            "Repositorios"
+        ],
+        "github": "https://github.com/alvaro-fullstack?tab=repositories",
+        "demo": ""
     }
 ]

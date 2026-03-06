@@ -7,14 +7,34 @@ export default function Contact() {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [status, setStatus] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Simulate backend response
         setStatus('Enviando...');
-        setTimeout(() => {
-            setStatus('¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.');
-            setFormData({ name: '', email: '', message: '' });
-        }, 1500);
+
+        try {
+            const response = await fetch("https://formsubmit.co/ajax/f37fa584a3abf3229ee88e8f234bbfd3", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify({
+                    Nombre: formData.name,
+                    Email: formData.email,
+                    Mensaje: formData.message,
+                    _subject: `Nuevo mensaje de Portfolio: ${formData.name}`
+                })
+            });
+
+            if (response.ok) {
+                setStatus('¡Mensaje enviado con éxito! Me pondré en contacto contigo pronto.');
+                setFormData({ name: '', email: '', message: '' });
+            } else {
+                setStatus('Hubo un error al enviar el mensaje. Inténtalo de nuevo.');
+            }
+        } catch (error) {
+            setStatus('Error de red. Por favor, verifica tu conexión.');
+        }
     };
 
     return (
